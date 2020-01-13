@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => {
   useStaticQuery(
     graphql`
-      query {
+      query SiteMeta {
         site {
           siteMetadata {
             title
